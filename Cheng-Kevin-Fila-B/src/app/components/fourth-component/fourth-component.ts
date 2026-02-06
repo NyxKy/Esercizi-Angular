@@ -5,7 +5,8 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './fourth-component.html',
   styleUrl: './fourth-component.css',
+  standalone : true
 })
 export class FourthComponent {
-
+  name = "fourth"
 }
