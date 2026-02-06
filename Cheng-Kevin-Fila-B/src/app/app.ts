@@ -10,5 +10,6 @@ import { FourthComponent } from './components/fourth-component/fourth-component'
   styleUrl: './app.css'
 })
 export class App {
+  Kevin = "app"
   protected readonly title = signal('Cheng-Kevin-Fila-B');
 }
