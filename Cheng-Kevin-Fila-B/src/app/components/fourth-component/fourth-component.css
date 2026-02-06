@@ -1,3 +1,11 @@
 .color-f{
-    color:yellow
+    color:rgb(255, 241, 45)
+}
+
+.container-p{
+    background-color: white;
+    padding: 12px;
+    border: solid gray;
+    margin-left: -15px;
+    margin-right: 22px;
 }
