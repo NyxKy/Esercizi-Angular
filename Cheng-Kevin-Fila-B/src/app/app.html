@@ -6,12 +6,22 @@
       <app-fourth-component></app-fourth-component>
   </div>
 
-  <div>
-    <button (click)="show()">
+  <div class="btn_container">
+    <button class="btn"(click)="show()">
     {{ showName() }}
-    {{ showSurn() }}
     </button>
 
+    <button class="btn" (click)="show2()">
+    {{ showSurn() }}
+    </button>
+  </div>
+    
+  <button class="img_btn" (click)="show_hide()">
+    <img #img src="Logo.png">
+  </button>
+
+  <div class="img_text" *ngIf="showText">
+    {{ img.src }}
   </div>
 
 </div>
