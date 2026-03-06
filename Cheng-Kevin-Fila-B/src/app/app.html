@@ -5,7 +5,13 @@
       <app-third-component></app-third-component>
       <app-fourth-component></app-fourth-component>
   </div>
+
   <div>
-    { { showName() } } { { showSurn() } }
+    <button (click)="show()">
+    {{ showName() }}
+    {{ showSurn() }}
+    </button>
+
   </div>
+
 </div>

@@ -10,16 +10,18 @@ import { FourthComponent } from './components/fourth-component/fourth-component'
   styleUrl: './app.css'
 })
 export class App {
-  Kevin = "app"
+  Kevin = "app";
   protected readonly title = signal('Cheng-Kevin-Fila-B');
-}
 
-export class AppComponent {
   public showName() {
     return "Kevin";
   }
 
-    public showSurn() {
+  public showSurn() {
     return "Cheng";
+  }
+
+  public show(): void {
+    alert("Hello World");
   }
 }
