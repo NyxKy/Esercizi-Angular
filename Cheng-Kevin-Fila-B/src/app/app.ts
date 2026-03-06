@@ -13,3 +13,13 @@ export class App {
   Kevin = "app"
   protected readonly title = signal('Cheng-Kevin-Fila-B');
 }
+
+export class AppComponent {
+  public showName() {
+    return "Kevin";
+  }
+
+    public showSurn() {
+    return "Cheng";
+  }
+}
